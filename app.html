@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lisalector</title>
+    <script src="./javascript/app.js" defer></script>
+    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="stylesheet" href="./css/app/main.css">
+    <link rel="stylesheet" href="./css/app/progress.css">
+    <link rel="stylesheet" href="./css/app/screen/upload.css">
+    <link rel="stylesheet" href="./css/app/screen/select.css">
+
+</head>
+
+<body>
+    <div id = "screen" class = "screen">
+        <div class = "scene-upload hidden">
+            <div class = "upload">
+                <span>ファイルをアップロード</span>
+                <p>設定ファイルをインポートします</p>
+                <button id = "import-file">ファイルを選択</button>
+            </div>
+            <button id = "skip">SKIP ></button>
+        </div>
+        <div class = "scene-select hidden">
+            <h1>進路科目選択</h1>
+            <p>今後に学びたい科目を選んでください</p>
+            <span>◇ Selecting Class</span>
+            <div class = "category-grid">
+                <span> <img src = "images/icons/本.PNG"> 文系</span>
+                <span> <img src = "images/icons/三角定規.PNG"> 理数系</span>
+                <span> <img src = "images/icons/歯車.PNG">工学系</span>
+                <span> <img src = "images/icons/パソコン.PNG"> 情報系</span>
+                <span> <img src = "images/icons/草.PNG"> 科学・環境バイオ系</span>
+                <span> <img src = "images/icons/etc.PNG"> その他</span>
+            </div>
+        </div>
+    </div>
+
+    <div class = "progress-wrapper">
+        <div id = "progress" class = "progress">
+            <span class = "selected">1</span>
+            <line></line>
+            <span>2</span>
+            <line></line>
+            <span>3</span>
+        </div>
+    </div>
+</body>
+
+</html>

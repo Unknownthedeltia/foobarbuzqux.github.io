@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Site Name</title>
+    <script src="./javascript/index.js" defer></script>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="stylesheet" href="./css/title-bar.css">
+    <link rel="stylesheet" href="./css/content/home.css">
+    <link rel="stylesheet" href="./css/content/class.css">
+</head>
+
+<body>
+    <div class = "title-bar">
+        <img src = "images/logo.png">
+        <div class = "title">
+            <p class = "main">Site Name</p>
+            <p class = "sub">Lisa校向け計画効率化ツール</p>
+        </div>
+
+        <div id = "menu" class = "menu">
+            <span id = "home" class = "selected">HOME</span>
+            <span id = "class" >授業</span>
+            <span id = "other" >その他</span>
+            <span id = "develop" >開発</span>
+        </div>
+    </div>
+    <div class = "content" id = "content">
+        <div class = "home open" id = "scene-home">
+            <div class = "introduce">
+                <p>Lisalector(仮名)</p>
+                <div>
+                    <img src = "images/error.png">
+                    <span>
+                        <p class = "h">題名</p>
+                        <p class = "text">
+                            説明文やらなんやら<br>
+                            2<br>
+                            　
+                        </p>
+                        <div style = "flex: 1;"></div>
+                        <button id = "start">Start -></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class = "class" id = "scene-class">
+            <div class = "class-viewer">
+                <span class = "title">授業一覧</span>
+                <p class = "details">授業についての情報一覧が見れます</p>
+                <dropdown>
+                    <p>▼ 文系</p>
+                    <content>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                        <p>授業カード</p>
+                    </content>
+                </dropdown>
+                <dropdown>
+                    <p>▼ 理数系</p>
+                    <content>
+                        <p>test</p>
+                    </content>
+                </dropdown>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
