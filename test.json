@@ -1,0 +1,10 @@
+{
+    "yearRound": false,
+    "credit": 0,
+    "slot": {
+        "second": false, "weekday": 0, "slot": [] 
+    },
+    "grade": { "1": true, "2": false, "3": false },
+    "name": "テスト強化",
+    "discipline": ""
+}
